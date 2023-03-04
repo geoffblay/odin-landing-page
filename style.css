@@ -15,7 +15,9 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 1em 1em 3em 1em;
+  /* padding: 1em 1em 3em 1em; */
+  padding: 1em 10em;
+  padding-bottom: 3em;
 }
 
 .header-content {
@@ -31,7 +33,8 @@ body {
   color: white;
   display: flex;
   justify-content: center;
-  padding: 1em;
+  /* padding: 1em; */
+  padding: 1em 10em;
   padding-bottom: 5em;
 }
 
@@ -53,10 +56,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  align-items: center;
+  align-items: end;
 }
 
 .body-2 {
+  padding: 1em 10em;
   padding-bottom: 5em;
 }
 
@@ -90,12 +94,57 @@ body {
   margin-top: 5px;
 }
 
+.body-3 {
+  background-color: #E5E7EB;
+  padding: 1em 10em;
+}
+
+.body-3 .quote {
+  text-align: center;
+  padding-top: 3em;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.body-3 .author-of-quote {
+  text-align: end;
+  padding-bottom: 3em;
+  /* padding-right: 25px; */
+  padding-top: 1em;
+  font-weight: 600;
+  font-size: 10px;
+}
+
+.body-4 {
+  padding: 1em 10em;
+}
+
+.body-4-container {
+  margin: 3em auto;
+  background-color: #3882F6;
+  color: white;
+  padding: 2em;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.body-4-text-div p {
+  font-weight: 200;
+}
+
+.body-4-button {
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+}
+
 .footer-div {
   background-color: #1F2937;
   color: white;
   display: flex;
   justify-content: center;
-  padding: 1em;
+  padding: 2em 10em;
 }
 
 button {
