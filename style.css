@@ -75,7 +75,7 @@ body {
 .squares {
   display: flex;
   justify-content: space-evenly;
-
+  flex-wrap: wrap;
 }
 
 .square {
@@ -127,6 +127,7 @@ body {
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .body-4-text-div p {
